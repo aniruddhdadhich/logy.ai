@@ -38,11 +38,11 @@ def get_bitly_metrics(link, access_token):
     return data, clicks_by_day
 
 
-link = 'bit.ly/3SIkqNY'
-access_token = '454810df060a12329b6d85e4f3b9d7f3a4a2dd60'
+link = 'link here'
+access_token = 'Access_TOKEN here'
 retrieved_data, clicks_by_day = get_bitly_metrics(link, access_token)
 
-# print(retrieved_data)
+# print(retrieved_data)  # Verbose Data
 
 print('Clicks by day:')
 for date, clicks in clicks_by_day.items():
